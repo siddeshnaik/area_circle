@@ -1,0 +1,11 @@
+radius=float(input())
+print(type(radius))
+import math #imports math library 
+pi=math.pi
+print(pi)
+if (radius >= 0.0) :
+    area=(radius*radius)*pi
+    print(area)
+    
+else :
+    print("enter a number greater than zero")
